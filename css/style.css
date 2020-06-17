@@ -1,0 +1,275 @@
+.gap{
+    padding: 50px 0px;
+}
+
+h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #11118d;
+    margin-bottom: 30px;
+}
+
+.mynav{
+    background:#fff !important;
+}
+
+/* navbar */
+
+
+.navbar-brand{
+    margin-right: 60px;
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff !important;
+    background-image: linear-gradient(to right, rgb(7, 7, 149),purple);
+    margin-left: 80px;
+    text-shadow: 3px 3px 5px grey;
+    border-bottom: 2px solid transparent !important;
+    border-radius: 50%;
+}
+
+.navbar-nav a{
+    margin-right: 30px;
+}
+
+.mynav a:hover{
+    border-bottom: 2px solid rgb(9, 9, 119);
+}
+
+.active{
+    border-bottom: 2px solid rgb(8, 8, 124);
+}
+.align a{
+    background: rgb(5, 5, 136);
+    border-radius: 60px;
+    color: #fff;
+    padding: 10px 30px; 
+    margin-right: 10px ;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.align a:hover{
+    background: rgb(139, 6, 6);
+    box-shadow: 3px 3px 5px none ;
+}
+
+.carousel-caption{
+    margin-bottom: 15%;
+    /*background: rgba(0,0,0, 0.6);*/
+    padding: 50px 100px;
+}
+
+.carousel-inner h5{
+     font-size: 60px;
+    font-family: 'Acme',sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Acme',sans-serif;
+}
+
+.carousel-inner p{
+    font-size:20px ;
+    font-family: 'Pacifico',sans-serif;
+}
+
+.dark:after{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: #444 none repeat scroll 0 0;
+    opacity: 0.3;
+    
+}
+
+.btn-primary{
+    background: transparent !important;
+    border:1px solid white;
+    padding: 15px 30px;
+    margin-top: 5px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn-primary:hover{
+    background: white !important;
+    color: black;
+    border-color: white !important;
+    
+}
+
+
+@media only screen and (max-width: 1233px){
+    .navbar-brand{
+        margin-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1167px){
+    .carousel-caption{
+    margin-bottom: 2%;
+    padding: 25px;
+    }
+    .navbar-brand{
+       font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1018px){
+    
+.carousel-inner h5{
+     font-size: 30px;
+}
+    
+.carousel-inner p{
+    font-size:10px ;
+}
+}
+
+/* footer */
+footer{
+    background-image: url('../images/Stunning\ Cars\ Ultra\ HD\ 4K\ Wallpapers\ \(30\).jpg');
+    background-attachment:fixed;
+    background-size: cover;
+    min-height: 400px;
+    padding: 20px;
+}
+
+.mylogo{
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#0a0a6b; 
+}
+
+.copy{
+    margin-top: 300px;
+    font-size: 18px;
+    font-family: 'Acme',sans-serif;
+}
+
+#branding {
+    background-image: linear-gradient(45deg, #080883, purple);
+    margin-top: 100px;
+}
+
+.h2w{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 35px 0px;
+    text-align: center;
+}
+
+.h2z{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.h2y{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #0b0b6d;
+    text-align: center;
+}
+
+.h3a{
+    color: #fff;
+}
+
+h3{
+    font-size: 15px;
+    text-transform: uppercase;
+    color:#0a0a79;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.white a{
+   color: #fff;
+   text-decoration: none;
+}
+.white{
+    color: #fff;
+    padding-top: 45px;
+    padding-left: 150px;
+}
+
+
+#team-group{
+    background-image: linear-gradient(#0c0c81 , purple);
+}
+
+.team{
+    background: #fff;
+    box-shadow: 5px 5px 10px #333;
+    padding: 20px 0px;
+    margin: 10px;
+}
+
+.fa{
+  
+    font-size: 20px;
+    padding: 5px;
+    color: purple;
+    text-decoration: none !important;
+}
+
+.fa:hover{
+    color: blue;
+    border-radius: 100px;
+    transition: all 0.4s ease-in-out;
+}
+
+.fafa .fa{
+    font-size: 40px;
+    padding: 10px 5px;
+    color: #fff;
+    margin-top: 300px;
+}
+
+.fafa .fa:hover{
+    color:blue;
+}
+
+.team img{
+    padding: 40px;
+}
+
+.pic{
+    padding: 2px;
+
+}
+
+#board{
+    background-image: linear-gradient(rgb(10, 10, 144) , purple);
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
